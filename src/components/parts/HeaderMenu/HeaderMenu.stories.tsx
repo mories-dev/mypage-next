@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
-
 import { HeaderMenu, HeaderMenuProps } from '.';
+import { MenuItemList } from '../../../models/top/header/MenuItem';
 
 export default {
   title: 'parts/HeaderMenu',
@@ -9,25 +9,8 @@ export default {
 
 const Template: Story<HeaderMenuProps> = (args) => <HeaderMenu listItems={args.listItems} />;
 
-export const Sample = Template.bind({});
+export const Menu = Template.bind({});
 
-Sample.args = {
-  listItems: [
-      {
-          text: "About",
-          link: "#about",
-      },
-      {
-        text: "Skills",
-        link: "#skills",
-    },
-    {
-        text: "Blog",
-        link: "#blog",
-    },
-    {
-        text: "Github",
-        link: "https://github.com/mories-dev",
-    },
-  ]
+Menu.args = {
+  listItems: MenuItemList
 };

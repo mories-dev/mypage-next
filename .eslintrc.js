@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    'browser': true,
+    'es6': true,
+  },
   root: true,
   extends: [
     "eslint:recommended",
@@ -9,6 +13,30 @@ module.exports = {
     "prettier",
   ],
   rules: {
-    "prettier/prettier": "error",
+    'indent': [
+      'error',
+      2,
+      {
+        'SwitchCase': 1
+      }
+    ],
+    'linebreak-style': [
+      'error',
+      'unix'
+    ],
+   'quotes': [
+      "error",
+      "single"
+   ],
+   'semi': [
+      "error",
+      "always"
+   ],
+   'no-console': [
+      "warn",
+      {
+        'allow': ["warn", "error"]
+      }
+   ],
   },
 };
