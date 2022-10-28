@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from '@emotion/styled';
 import Image from 'next/image'
-import { HeaderMenu } from '../../parts/HeaderMenu';
-import { MenuItemList } from '../../../models/top/header/MenuItem';
+import { HeaderMenu } from '../../../parts/HeaderMenu';
+import { MenuItemList } from '../../../../models/top/header/MenuItem';
 
 export const PageHeader: React.FC = () => {
     return (

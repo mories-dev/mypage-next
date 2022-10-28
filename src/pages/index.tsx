@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { PageHeader } from '../components/templates/top/PageHeader/PageHeader'
 const Home: NextPage = () => {
   return (
     <div>
@@ -8,6 +9,7 @@ const Home: NextPage = () => {
         <meta name="description" content="自己紹介ページ" />
         <meta charSet="utf-8"/>
       </Head>
+      <PageHeader />
     </div>
   )
 }
