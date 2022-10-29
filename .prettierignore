@@ -1,0 +1,14 @@
+node_modules
+yarn.lock
+package-lock.json
+
+# for react
+build
+
+# for next.js
+public
+.next
+
+# for shared
+dist
+shared/types

@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
-import { MenuItem, MenuItemProps } from './MenuItem';
 import { FaGithub } from 'react-icons/fa';
+import { MenuItem, MenuItemProps } from './MenuItem';
 
 export default {
   title: 'atoms/MenuItem',
@@ -13,9 +13,9 @@ export const Text = Template.bind({});
 
 Text.args = {
   item: {
-    content: "About",
-    link: "#about",
-  }
+    content: 'About',
+    link: '#about',
+  },
 };
 
 export const Icon = Template.bind({});
@@ -23,6 +23,6 @@ export const Icon = Template.bind({});
 Icon.args = {
   item: {
     content: <FaGithub />,
-    link: "https://github.com/mories-dev",
-  }
+    link: 'https://github.com/mories-dev',
+  },
 };

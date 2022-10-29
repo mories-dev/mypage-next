@@ -1,5 +1,5 @@
-import React from 'react';
 import styled from '@emotion/styled';
+import React from 'react';
 import { MenuItemType } from '../../../../../models/top/header/MenuItem';
 
 export type MenuItemProps = {
@@ -7,7 +7,11 @@ export type MenuItemProps = {
 };
 
 export const MenuItem: React.FC<MenuItemProps> = ({ item }) => {
-  return <StyledLi><StyledA href={item.link}>{item.content}</StyledA></StyledLi>
+  return (
+    <StyledLi>
+      <StyledA href={item.link}>{item.content}</StyledA>
+    </StyledLi>
+  );
 };
 
 const StyledLi = styled.li`
