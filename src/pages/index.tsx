@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { PageHeader } from '../components/templates/top/PageHeader/PageHeader';
+import { MainContents } from '@/components/templates/top/MainContents';
+import { PageHeader } from '@/components/templates/top/PageHeader/PageHeader';
 const Home: NextPage = () => {
   return (
     <div>
@@ -10,6 +11,7 @@ const Home: NextPage = () => {
         <meta charSet="utf-8" />
       </Head>
       <PageHeader />
+      <MainContents />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import React from 'react';
-import { MenuItemType } from '../../../models/top/header/MenuItem';
-import { MenuItem } from '../../atoms/top/header/MenuItem/MenuItem';
+import { MenuItem } from '@/components/atoms/top/header/MenuItem';
+import { MenuItemType } from '@/models/top/header';
 
 export type HeaderMenuProps = {
   listItems: MenuItemType[];

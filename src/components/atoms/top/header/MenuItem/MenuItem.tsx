@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 import React from 'react';
-import { MenuItemType } from '../../../../../models/top/header/MenuItem';
+import { MenuItemType } from '@/models/top/header';
 
 export type MenuItemProps = {
   item: MenuItemType;

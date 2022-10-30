@@ -13,4 +13,5 @@ export const MainView: React.FC = () => {
 const StyledImageWrraper = styled.div`
   width: 100%;
   height: 500px;
+  position: relative;
 `;

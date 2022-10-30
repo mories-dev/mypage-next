@@ -14,7 +14,7 @@ export const OverView: React.FC = () => {
   );
 };
 
-const StyledSection = styled.header`
+const StyledSection = styled.section`
   text-align: center;
   padding: 100px;
 `;

@@ -5,7 +5,7 @@ export type MenuItemType = {
   content: string | JSX.Element;
 };
 
-export const MenuItemList = [
+export const MENU_ITEM_LIST = [
   {
     content: 'About',
     link: '#about',

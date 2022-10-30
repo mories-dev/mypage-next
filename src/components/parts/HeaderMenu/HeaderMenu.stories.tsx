@@ -1,6 +1,6 @@
 import { Story, Meta } from '@storybook/react/types-6-0';
-import { MenuItemList } from '../../../models/top/header/MenuItem';
 import { HeaderMenu, HeaderMenuProps } from '.';
+import { MENU_ITEM_LIST } from '@/models/top/header/MenuItem';
 
 export default {
   title: 'parts/HeaderMenu',
@@ -14,5 +14,5 @@ const Template: Story<HeaderMenuProps> = (args) => (
 export const Menu = Template.bind({});
 
 Menu.args = {
-  listItems: MenuItemList,
+  listItems: MENU_ITEM_LIST,
 };
