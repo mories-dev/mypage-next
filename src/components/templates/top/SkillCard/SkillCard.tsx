@@ -32,4 +32,5 @@ const StyledSkillCard = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
 `;

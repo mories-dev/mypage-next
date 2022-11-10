@@ -11,7 +11,7 @@ export const SkillCardList: React.FC<SkillCardListProps> = ({
   skillCardList,
 }) => {
   return (
-    <StyledContent>
+    <StyledContent id="skills">
       <StyledContentTitle>もりーずの技術スタック</StyledContentTitle>
       <StyledSkillCardListWrapper>
         {skillCardList.map((item, index) => (

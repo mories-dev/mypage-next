@@ -3,7 +3,7 @@ import React from 'react';
 
 export const OverView: React.FC = () => {
   return (
-    <StyledSection>
+    <StyledSection id="about">
       <StyledOverViewTitle>このサイトについて</StyledOverViewTitle>
       <StyledText>
         このページは、駆け出しフロントエンドエンジニアであるもりーずの自己紹介ページです。

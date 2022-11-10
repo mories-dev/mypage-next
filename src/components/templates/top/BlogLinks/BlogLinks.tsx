@@ -11,7 +11,7 @@ export type BlogLinksProps = {
 
 export const BlogLinks: React.FC<BlogLinksProps> = ({ blogContentList }) => {
   return (
-    <StyledContent>
+    <StyledContent id="blog">
       <StyledContentTitle>技術や趣味に関するブログ</StyledContentTitle>
       <StyledBlogLinksWrapper>
         {blogContentList.map((item, index) => (
@@ -53,8 +53,11 @@ const StyledA = styled.a`
   border: solid 2px gray;
   border-radius: 20px;
   cursor: pointer;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
   :hover {
     background-color: #f7bb6e;
+    box-shadow: none;
+    transform: translateY(5px);
   }
 `;
 

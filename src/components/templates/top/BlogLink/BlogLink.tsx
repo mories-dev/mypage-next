@@ -45,4 +45,5 @@ const StyledBlogContent = styled.div`
   border: solid 1px gray;
   width: 400px;
   border-radius: 5px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
 `;

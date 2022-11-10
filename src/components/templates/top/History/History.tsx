@@ -8,7 +8,7 @@ export type HistoryProps = {
 
 export const History: React.FC<HistoryProps> = ({ historyItems }) => {
   return (
-    <StyledSection>
+    <StyledSection id="history">
       <StyledHistoryTitle>これまでの経歴</StyledHistoryTitle>
       <StyledTable>
         <tbody>
