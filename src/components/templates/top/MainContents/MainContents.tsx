@@ -3,6 +3,7 @@ import { BlogLinks } from '../BlogLinks';
 import { History } from '../History';
 import { MainView } from '../MainView';
 import { OverView } from '../OverView';
+import { PageFooter } from '../PageFooter';
 import { SkillCardList } from '../SkillCardList';
 import { BLOG_CONTENT_LIST } from '@/models/top/main/BlogContent';
 import { HISTORY_ITEMS } from '@/models/top/main/History';
@@ -16,6 +17,7 @@ export const MainContents: React.FC = () => {
       <History historyItems={HISTORY_ITEMS} />
       <SkillCardList skillCardList={SKILL_CARD_LIST} />
       <BlogLinks blogContentList={BLOG_CONTENT_LIST} />
+      <PageFooter />
     </main>
   );
 };
