@@ -4,7 +4,7 @@ import Link from 'next/link';
 import utilStyles from '../../../../styles/utils.module.css';
 import styles from './layout.module.css';
 
-const name = 'mories_dev';
+const name = '📝エンジニアブログ';
 export const siteTitle = 'Tech Blog';
 
 export type LayoutProps = {
@@ -23,9 +23,9 @@ export const Layout: React.FC<LayoutProps> = ({ children, home }) => {
           <>
             <Image
               src="/icon.jpg"
-              className={`${utilStyles.borderCircle} ${styles.headerHomeImage}`}
-              width={'50px'}
-              height={'50px'}
+              className={`${utilStyles.borderCircle}`}
+              width={'70px'}
+              height={'70px'}
               alt="プロフィール"
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -45,13 +45,17 @@ export const Layout: React.FC<LayoutProps> = ({ children, home }) => {
       </header>
       <main>{children}</main>
       {home && (
-        <div>
-          <Link href="/">←ホームへ戻る</Link>
+        <div className={styles.backToHome}>
+          <Link href="/">
+            <a className={styles.backToHomeLink}>←ホームへ戻る</a>
+          </Link>
         </div>
       )}
       {!home && (
-        <div>
-          <Link href="/blog">←ブログ一覧へ戻る</Link>
+        <div className={styles.backToHome}>
+          <Link href="/blog">
+            <a className={styles.backToHomeLink}>←ブログ一覧へ戻る</a>
+          </Link>
         </div>
       )}
     </div>

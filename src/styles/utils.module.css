@@ -58,3 +58,53 @@
   color: black;
   font-weight: 550;
 }
+
+.mdStyle > * {
+  list-style: disc;
+  line-height: 2;
+  list-style-position: inside;
+}
+
+.mdStyle > h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.mdStyle > h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.mdStyle > h4 {
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 8px 0;
+}
+
+.mdStyle > pre {
+  color: #fff;
+  background-color: black;
+  padding: 8px;
+}
+
+.mdStyle > table {
+  margin: 16px 0;
+  border: 1px solid black;
+}
+
+.mdStyle > table > thead {
+  border: 1px solid black;
+  background-color: rgb(201, 198, 198);
+}
+
+.mdStyle > table > thead > tr > th {
+  border: 1px solid black;
+  padding: 4px;
+}
+
+.mdStyle > table > tbody > tr > td {
+  border: 1px solid black;
+  padding: 8px 20px;
+}

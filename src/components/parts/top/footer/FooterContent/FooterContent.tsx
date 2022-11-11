@@ -9,11 +9,11 @@ export type FooterContentProps = {
 export const FooterContent: React.FC<FooterContentProps> = ({ content }) => {
   return (
     <ul>
-      {content.map((item) =>
+      {content.map((item, index) =>
         item.url === 'none' ? (
-          <StyledLiTitle>{item.name}</StyledLiTitle>
+          <StyledLiTitle key={index}>{item.name}</StyledLiTitle>
         ) : (
-          <StyledLi>
+          <StyledLi key={index}>
             <StyledA href={item.url}>{item.name}</StyledA>
           </StyledLi>
         )

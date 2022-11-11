@@ -35,4 +35,9 @@
 
 .blogs {
   text-align: center;
+  margin-top: 48px;;
+}
+
+.blogs_title {
+  margin-top: 24px;
 }

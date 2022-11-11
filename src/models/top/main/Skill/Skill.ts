@@ -6,7 +6,16 @@ export type SkillCardType = {
 export const SKILL_CARD_LIST: SkillCardType[] = [
   {
     title: 'フロントエンド',
-    items: ['HTML/CSS', 'JavaScript', 'React', 'Next.js', 'Emotion'],
+    items: [
+      'HTML/CSS',
+      'JavaScript',
+      `TypeScript`,
+      'React',
+      'Next.js',
+      'Emotion',
+      `Angular`,
+      'storybook',
+    ],
   },
   {
     title: 'バックエンド',
@@ -14,6 +23,6 @@ export const SKILL_CARD_LIST: SkillCardType[] = [
   },
   {
     title: 'その他',
-    items: ['Docker', 'Git'],
+    items: ['Docker', 'Git', 'firebase', 'strapi', 'open-api'],
   },
 ];

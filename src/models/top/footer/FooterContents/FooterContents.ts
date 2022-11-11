@@ -34,6 +34,10 @@ export const FOOTER_CONTENTS: FooterContentType[] = [
       url: '',
     },
     {
+      name: 'ポケモン図鑑（React）',
+      url: '',
+    },
+    {
       name: 'デリバリーアプリ',
       url: '',
     },
@@ -42,8 +46,16 @@ export const FOOTER_CONTENTS: FooterContentType[] = [
       url: '',
     },
     {
-      name: 'ポケモン図鑑（React）',
+      name: '簡易ブログ（React + firebase）',
       url: '',
+    },
+    {
+      name: 'noteアプリ（React + firebase）',
+      url: '',
+    },
+    {
+      name: 'todo-api（Java + Spring）',
+      url: 'https://github.com/mories-dev/todo-api',
     },
   ],
   [

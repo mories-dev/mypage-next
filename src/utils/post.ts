@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
+import gmf from 'remark-gfm';
 import html from 'remark-html';
 
 const postsDirectory = path.join(process.cwd(), '/src/posts');
@@ -46,7 +47,10 @@ export const getPostData = async (id: string | string[] | undefined) => {
 
   const matterResult = matter(fileContent);
 
-  const blogContent = await remark().use(html).process(matterResult.content);
+  const blogContent = await remark()
+    .use(html)
+    .use(gmf)
+    .process(matterResult.content);
 
   const blogContentHTML = blogContent.toString();
 

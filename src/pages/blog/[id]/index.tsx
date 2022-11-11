@@ -41,10 +41,13 @@ const Post: React.FC<PostProps> = ({ postData }) => {
         <Head>
           <title>{postData.title}</title>
         </Head>
-        <article>
+        <article style={{ marginTop: '48px' }}>
           <h1 className={utilStyles.headingX1}>{postData.title}</h1>
           <div className={utilStyles.lightText}>{postData.date}</div>
-          <div dangerouslySetInnerHTML={{ __html: postData.blogContentHTML }} />
+          <div
+            className={utilStyles.mdStyle}
+            dangerouslySetInnerHTML={{ __html: postData.blogContentHTML }}
+          />
         </article>
       </>
     </Layout>

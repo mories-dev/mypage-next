@@ -35,13 +35,12 @@ const Blog: NextPage<NextPageProps> = ({ allPostsData }) => {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        <section>
-          <p className={utilStyle.headingMd}>
-            私はフロントエンドエンジニアです。好きなフレームワークはNext.jsです。
+        <section className={styles.blogs_title}>
+          <p className={`${utilStyle.headingMd}`}>
+            こちらは私がこれまで学んだ技術についてまとめたブログです。随時更新中🗒
           </p>
         </section>
         <section className={styles.blogs}>
-          <h2>📝エンジニアのブログ</h2>
           <div className={styles.grid}>
             {allPostsData.map(({ id, title, date, thumbnail }) => {
               return (
