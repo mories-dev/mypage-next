@@ -35,7 +35,7 @@ export const FOOTER_CONTENTS: FooterContentType[] = [
     },
     {
       name: 'ポケモン図鑑（React）',
-      url: '',
+      url: 'https://reapokemories.netlify.app/',
     },
     {
       name: 'デリバリーアプリ',
@@ -43,15 +43,15 @@ export const FOOTER_CONTENTS: FooterContentType[] = [
     },
     {
       name: 'Twitterクローンアプリ',
-      url: '',
+      url: 'https://twitter-clone-62db6.web.app/',
     },
     {
       name: '簡易ブログ（React + firebase）',
-      url: '',
+      url: 'https://blog-with-react-and-fire-8749a.web.app/',
     },
     {
       name: 'noteアプリ（React + firebase）',
-      url: '',
+      url: 'https://moriesdev.netlify.app/',
     },
     {
       name: 'todo-api（Java + Spring）',
