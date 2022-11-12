@@ -66,13 +66,13 @@
 }
 
 .mdStyle > h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: bold;
   margin-bottom: 16px;
 }
 
 .mdStyle > h3 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   margin: 16px 0;
 }
@@ -84,9 +84,16 @@
 }
 
 .mdStyle > pre {
+  font-size: 20px;
   color: #fff;
   background-color: black;
   padding: 8px;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+
+.mdStyle > p > code {
+  font-size: 20px;
 }
 
 .mdStyle > table {

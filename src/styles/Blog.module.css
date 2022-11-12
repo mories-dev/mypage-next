@@ -14,7 +14,7 @@
 
 .thumbnailImage {
   margin-bottom: 20px;
-  box-shadow: 4px 5px 12px black;
+  box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
   transition: all 0.3s;
   cursor: pointer;
 }

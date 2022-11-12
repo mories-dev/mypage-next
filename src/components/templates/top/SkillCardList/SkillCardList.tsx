@@ -31,6 +31,7 @@ const StyledContentTitle = styled.h1`
 const StyledContent = styled.div`
   padding: 100px 200px;
   text-align: center;
+  background-color: #fff;
 `;
 
 const StyledSkillCardListWrapper = styled.div`

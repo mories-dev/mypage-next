@@ -1,7 +1,7 @@
 ---
 title: 'JavaScriptについて'
 date: '2022-01-23'
-thumbnail: '/images/thumbnail01.jpg'
+thumbnail: '/images/JavaScript.png'
 ---
 
 ## JavaScript とは

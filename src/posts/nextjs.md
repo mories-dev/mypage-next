@@ -1,7 +1,7 @@
 ---
 title: 'Next.jsについて'
 date: '2022-11-11'
-thumbnail: '/images/thumbnail03.jpeg'
+thumbnail: '/images/next.jpeg'
 ---
 
 ## Next.js とは

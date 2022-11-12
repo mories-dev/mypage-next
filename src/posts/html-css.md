@@ -1,7 +1,7 @@
 ---
 title: 'HTML/CSSについて'
 date: '2022-02-23'
-thumbnail: '/images/thumbnail01.jpg'
+thumbnail: '/images/html-css.jpeg'
 ---
 
 ## HTML とは

@@ -7,7 +7,13 @@ import { MENU_ITEM_LIST } from '@/models/top/header/MenuItem';
 export const PageHeader: React.FC = () => {
   return (
     <StyledHeader>
-      <Image src="/icon.jpg" alt="自分のアイコン" width={80} height={60} />
+      <Image
+        src="/icon.jpg"
+        alt="自分のアイコン"
+        width={60}
+        height={60}
+        style={{ borderRadius: 60 }}
+      />
       <HeaderMenu listItems={MENU_ITEM_LIST} />
     </StyledHeader>
   );

@@ -1,7 +1,7 @@
 ---
 title: 'TypeScriptについて'
 date: '2022-02-23'
-thumbnail: '/images/thumbnail01.jpg'
+thumbnail: '/images/typescript.png'
 ---
 
 ## TypeScript とは
