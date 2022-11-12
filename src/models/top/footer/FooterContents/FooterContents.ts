@@ -31,15 +31,19 @@ export const FOOTER_CONTENTS: FooterContentType[] = [
     },
     {
       name: 'ポケモン図鑑（Angular）',
-      url: '',
+      url: 'https://angular-pokemon-app-1ca8b.web.app/',
     },
     {
       name: 'ポケモン図鑑（React）',
       url: 'https://reapokemories.netlify.app/',
     },
     {
-      name: 'デリバリーアプリ',
-      url: '',
+      name: 'デリバリーアプリ(FE)',
+      url: 'https://github.com/mories-dev/food-delivery-app-frontend',
+    },
+    {
+      name: 'デリバリーアプリ(BE)',
+      url: 'https://github.com/mories-dev/food-delivery-app-backend',
     },
     {
       name: 'Twitterクローンアプリ',
