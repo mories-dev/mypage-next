@@ -17,7 +17,6 @@ export const PageFooter: React.FC = () => {
 
 const StyledFooter = styled.footer`
   padding: 50px 500px;
-  margin-bottom: 20px;
   background-color: #fff;
 `;
 

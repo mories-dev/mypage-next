@@ -30,7 +30,7 @@ export const OverView: React.FC = () => {
               <br />
               新しくオープンしたお店に行ったり、新しい技術が出てきたらそれについて調べてみる、等々
               <br />
-              また。初対面で顔が怖いと言われ流ことがたまにありますが、緊張しているだけです（笑）
+              また。初対面で顔が怖いと言われることがたまにありますが、緊張しているだけです（笑）
             </StyledSpan>
           </StyledCardTitle>
           <StyledCardTitle>
