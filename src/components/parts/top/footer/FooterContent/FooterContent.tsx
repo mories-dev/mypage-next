@@ -14,7 +14,9 @@ export const FooterContent: React.FC<FooterContentProps> = ({ content }) => {
           <StyledLiTitle key={index}>{item.name}</StyledLiTitle>
         ) : (
           <StyledLi key={index}>
-            <StyledA href={item.url}>{item.name}</StyledA>
+            <StyledA href={item.url} target="_blank">
+              {item.name}
+            </StyledA>
           </StyledLi>
         )
       )}
